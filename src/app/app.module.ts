@@ -16,6 +16,7 @@ import { AboutComponent } from './components/about/about.component';
 import { NewsComponent } from './components/news/news.component';
 import { HomeComponent } from './components/home/home.component';
 import { RemoveSomeWordPipe } from './pipes/remove-some-word.pipe';
+import { ProductInfoComponent } from './components/product-info/product-info.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { RemoveSomeWordPipe } from './pipes/remove-some-word.pipe';
     AboutComponent,
     NewsComponent,
     HomeComponent,
-    RemoveSomeWordPipe
+    RemoveSomeWordPipe,
+    ProductInfoComponent
   ],
   imports: [
     BrowserModule,

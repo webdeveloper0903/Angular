@@ -1,1 +1,16 @@
-<input value="test input"/>
+<div class="card-body">
+    <div class="card-img">
+        <img src="" alt="image">
+    </div>
+    <div class="card-explain">
+        <h3>{{productInfo.productName | uppercase}}</h3>
+        <h5>$ {{productInfo.price}}</h5>
+        <p>
+            {{productInfo.about}}
+        </p>
+    </div>
+    <div class="card-btn-div">
+        <button><a routerLink="/store/{{productInfo.productName}}">About</a></button>
+        <button>Add to Bucket</button>
+    </div>
+</div>
